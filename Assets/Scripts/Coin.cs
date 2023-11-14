@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    private float minY = -7f;
+    private float minY = -7f; //test github
     // Start is called before the first frame update
     void Start()
     {
