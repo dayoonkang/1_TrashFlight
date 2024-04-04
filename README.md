@@ -30,7 +30,18 @@ https://github.com/dayoonkang/1_TrashFlight/assets/150164152/818fa4a2-ac5a-4ded-
 - Visual Studio 2022 C#
 
 ## 🌟 주요 기능
-
+1. 움직이는 배경화면안에서, 끝없이 앞으로 달리는 캐릭터 구현
+2. 위에서 5열로 내려오는 Random Weapon 7종
+3. 캐릭터의 앞부분에서 weapon Spawner 생성
+4. 키보드와 마우스로 캐릭터 이동 가능
+5. 캐릭터의 미사일로 적을 맞추면 코인 생성
+6. 코인과 캐릭터가 충돌하면 coin을 획득하게 됨
+7. coin을 정해진 수량 이상 획득하면 캐릭터의 무기 업그레이드
+8. enemy들의 level up: 시간이 지날 수록 hp가 강하고 속도가 빠른 적들 등장 (enemy마다 weapon과의 충돌 횟수 상이)
+9. 적과 캐릭터가 충돌하면 game over
+10. 좌측 상단에 획득한 코인 갯수 표시하는 widget
+11. enemy level이 최고점에 달하면 boss enemy 등장, hp가 높고 속도가 느림
+12. boss enemy를 잡으면 game over.
 
 ## 🛠️ 이 프로젝트는 어떤 문제를 해결했나요?
 기본 게임 (copy project) 이외 개인적으로 추가한 수정 사항은 다음과 같습니다. 문제점은 베타 테스트를 통해 사용자 의견을 수렴하여 작성되었습니다.
@@ -174,6 +185,7 @@ https://github.com/dayoonkang/1_TrashFlight/assets/150164152/818fa4a2-ac5a-4ded-
 - 움직이는 적 만들기 : 지금은 가만히만 있으면 무조건 생존 가능
 - enemy missile system
 - 쏘면 안되는 enemy 만들기 : bomb!
+- 현재 weapon index와 enemy index도 알 수 있게끔 coin widget에 추가
 
 ## ✔️ 참고자료
 Youtube - 나도코딩 "유니티 무료 강의(Crash Course) - 5시간 만에 게임 만드는 법 배우기"
